@@ -12,11 +12,6 @@ class Shape(ABC):
         """Return the name of the shape"""
         pass
 
-# Circle:
-# Constructor takes: radius
-
-
-# Area formula: π × radius²
 
 class Circle(Shape):
     def __init__(self, radius):
